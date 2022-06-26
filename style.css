@@ -1,0 +1,85 @@
+.search{
+    border-radius: 10px;
+}
+
+
+body{
+    background-color: #f0f2f5;
+}
+
+.icon{
+    position: relative;
+    left: 150px;
+}
+
+.icon i {
+    margin-right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #e1e1e2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   line-height: 50px;
+   text-align: center;
+
+   
+}
+.myc{
+    background-color: #fff;
+}
+.coto{
+    width: 100px;
+}
+
+.pro{
+    font-size: 20px;
+    font-family: roboto;
+    color: black;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #f0f2f5;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.dynamic{
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+#massage {
+    display: none;
+    position: relative;
+    top: -825px;
+    left: 0px;
+}
+
+#noti{
+    display: none;
+    position: relative;
+    top: -825px;
+    left: 0px;
+}
+
+#post_modal{
+    background-color: rgba(255, 255, 255, 0.599);
+}
+
+#img{
+    height: 50px;
+}
+#face{
+    border-radius: 50px;
+    font-size: 20px;
+}
+.podda{
+    font-size: 20px;
+}
+span{
+    color: #0870e5;
+}
+
+#textarea{
+    height: 50px;
+}

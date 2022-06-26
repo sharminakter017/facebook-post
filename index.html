@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook page</title>
+     <!-- font Awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- bootstrap link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="row my-5">
+        <div class="col-lg-3">
+            
+            <div class="div">
+               
+                <div class="img d-flex">
+                    <img  src="./Capture56.PNG" alt="">
+                   <input id="face"  class="form-control search" placeholder="Search facebook" type="text">
+                </div>
+                <div class="ar my-5">
+                    <img class="mb-5" src="./Capture23.PNG" alt="">
+                    <img src="./Capture52.PNG" alt="">
+                </div>
+            
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="middle">
+                <img src="./Capture256.PNG" alt="">
+                <img src="./head.PNG" alt="">
+                <div class="card shadow">
+                    <div class="dynamic d-flex ">
+                   
+                        <img class="coto" src="./222.PNG" alt="">
+                        <input data-bs-toggle = "modal" href="#post_modal" class="form-control w-75 pro" placeholder="What's on your mind, Programmer?" type="text">
+                        
+                       
+                    </div>
+                    <img src="./post.PNG" alt="">
+                </div>
+                <div class="card my-3 shadow">
+                    <img src="./massanjar active.PNG" alt="">
+                </div>
+            </div>
+
+
+            <!-- main-design ======================================-->
+
+            <div class="msg">
+                
+            </div>
+
+
+            
+        </div>
+        <div class="col-lg-3">
+            
+            <div class="icon d-flex ">
+                <i class="fas fa-th"></i>
+            <i id="massanger" class="fab fa-facebook-messenger"></i>
+            <i id="notification" class="fas fa-bell"></i>
+            <img src="./222.PNG" alt="">
+            </div>
+            <img src="./right side.PNG" alt="">
+            <img id="massage" src="./massanjar.PNG" alt="">
+            <img id="noti" src="./noti.PNG" alt="">
+        </div>
+    </div>
+
+   
+
+
+
+   <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+
+
+
+
+
+
+
+
+
+    <!-- modal-post -->
+
+    <div class="modal fade" id="post_modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Create Post</h2>
+                    <button data-bs-toggle = "modal" class="btn-close"></button>
+                    <hr>
+                    
+                </div>
+                <div class="modal-body">
+                    <img src="./popup.PNG" alt="">
+                    <form id="create_post_form">
+                        <div class="my-3">
+                            <div class="msgs"></div>
+                            <label for="">Massage</label>
+                            <input placeholder="Type your massage" id="textarea" name="massage" class="form-control" type="textarea">
+                        </div>
+                        <div class="my-3">
+                            <label for="">Upload img</label>
+                            <input name="img" id="img" class="form-control" type="text" placeholder="Drag and Drop">
+                        </div>
+                        <div class="my-3">
+                            <img class="w-100" src="./popup upload.PNG" alt="">
+                        </div>
+                        <div class="my-3">
+                            <input value="Post" class="btn btn-info w-100" type="submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer"><p>@All Right Reserved by Sharmin Sultana</p></div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+   
+       
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+
+       
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+
+        $('#massanger').click(function(){
+            $('#massage').slideToggle();
+        })
+
+        $('#notification').click(function(){
+            $('#noti').slideToggle();
+
+        })
+
+
+
+
+    </script>
+
+    <script src="functions.js"></script>
+    <script src="app.js"></script>
+
+
+
+    
+</body>
+</html>
